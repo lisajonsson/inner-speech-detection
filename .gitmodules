@@ -1,0 +1,6 @@
+[submodule "Inner_Speech_Dataset"]
+	path = Inner_Speech_Dataset
+	url = git@github.com:N-Nieto/Inner_Speech_Dataset.git
+[submodule "ds003626"]
+	path = ds003626
+	url = git@github.com:OpenNeuroDatasets/ds003626.git
