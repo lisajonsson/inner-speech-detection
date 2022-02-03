@@ -15,5 +15,4 @@ Wat I did to make it run:
 * Select inner_speech as kernel in ipynb notebook
 
 * Add git submodules with *git add submodule git@github.com:OpenNeuroDatasets/ds003626.git* and *git add submodule git submodule add git@github.
-
 com:N-Nieto/Inner_Speech_Dataset.git*
