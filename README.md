@@ -1,6 +1,6 @@
 # inner-speech-detection
 
-Wat I did to make it run:
+What I did to make it run:
 
 * Download all 3 N-Nieto git repositorys.
 
