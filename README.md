@@ -16,3 +16,5 @@ What I did to make it run:
 
 * Add git submodules with *git add submodule git@github.com:OpenNeuroDatasets/ds003626.git* and *git add submodule git submodule add git@github.
 com:N-Nieto/Inner_Speech_Dataset.git*
+
+* Pip install ipynb to be able to import between ipynb files.
