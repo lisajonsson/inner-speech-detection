@@ -1,0 +1,726 @@
+
+Experiment done on model deepCNN. 
+ Learning rate: 0.0001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 60, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.
+
+Results for subject 1.
+Train accuracies from 5 folds:
+0.25, 1.0, 0.7333333333333333, 0.8916666666666667, 0.8416666666666667, 
+Validation accuracies from 5 folds:
+0.25, 0.4, 0.35, 0.325, 0.35, 
+Test accuracies from 5 folds:
+0.25, 0.225, 0.225, 0.35, 0.275, 
+Avg train acc: 0.7433333333333334, Avg validation acc: 0.33499999999999996, Avg test acc: 0.26499999999999996, 
+
+#####################################
+
+
+
+Results for subject 2.
+Train accuracies from 5 folds:
+0.9791666666666666, 0.9722222222222222, 0.9375, 0.8680555555555556, 0.9652777777777778, 
+Validation accuracies from 5 folds:
+0.2708333333333333, 0.3333333333333333, 0.3125, 0.2708333333333333, 0.3125, 
+Test accuracies from 5 folds:
+0.16666666666666666, 0.3333333333333333, 0.375, 0.3333333333333333, 0.2916666666666667, 
+Avg train acc: 0.9444444444444444, Avg validation acc: 0.3, Avg test acc: 0.3, 
+
+#####################################
+
+
+
+Results for subject 3.
+Train accuracies from 5 folds:
+0.7870370370370371, 0.8703703703703703, 0.9259259259259259, 0.9444444444444444, 0.9444444444444444, 
+Validation accuracies from 5 folds:
+0.3611111111111111, 0.3333333333333333, 0.3888888888888889, 0.3888888888888889, 0.3888888888888889, 
+Test accuracies from 5 folds:
+0.19444444444444445, 0.2222222222222222, 0.25, 0.25, 0.2222222222222222, 
+Avg train acc: 0.8944444444444445, Avg validation acc: 0.3722222222222222, Avg test acc: 0.22777777777777777, 
+
+#####################################
+
+
+
+Results for subject 4.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.9861111111111112, 0.25, 0.9375, 0.25, 
+Validation accuracies from 5 folds:
+0.3541666666666667, 0.2708333333333333, 0.25, 0.375, 0.25, 
+Test accuracies from 5 folds:
+0.25, 0.3333333333333333, 0.25, 0.25, 0.25, 
+Avg train acc: 0.6791666666666667, Avg validation acc: 0.3, Avg test acc: 0.26666666666666666, 
+
+#####################################
+
+
+
+Results for subject 5.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.9791666666666666, 0.9791666666666666, 0.3333333333333333, 0.8472222222222222, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.2916666666666667, 0.375, 0.2708333333333333, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.25, 0.25, 0.2708333333333333, 0.2708333333333333, 0.22916666666666666, 
+Avg train acc: 0.8222222222222222, Avg validation acc: 0.3208333333333333, Avg test acc: 0.25416666666666665, 
+
+#####################################
+
+
+
+Results for subject 6.
+Train accuracies from 5 folds:
+0.937984496124031, 0.35658914728682173, 0.8992248062015504, 0.24806201550387597, 0.46511627906976744, 
+Validation accuracies from 5 folds:
+0.32558139534883723, 0.2727272727272727, 0.2727272727272727, 0.25, 0.29545454545454547, 
+Test accuracies from 5 folds:
+0.36363636363636365, 0.2558139534883721, 0.2558139534883721, 0.2558139534883721, 0.23255813953488372, 
+Avg train acc: 0.5813953488372093, Avg validation acc: 0.2832980972515856, Avg test acc: 0.27272727272727276, 
+
+#####################################
+
+
+
+Results for subject 7.
+Train accuracies from 5 folds:
+0.7916666666666666, 0.6111111111111112, 0.25, 0.25, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.3125, 0.25, 0.25, 0.4166666666666667, 
+Test accuracies from 5 folds:
+0.3125, 0.2708333333333333, 0.25, 0.25, 0.16666666666666666, 
+Avg train acc: 0.5763888888888888, Avg validation acc: 0.3125, Avg test acc: 0.25, 
+
+#####################################
+
+
+
+Results for subject 8.
+Train accuracies from 5 folds:
+0.95, 0.9916666666666667, 0.7833333333333333, 0.48333333333333334, 0.5416666666666666, 
+Validation accuracies from 5 folds:
+0.425, 0.375, 0.4, 0.275, 0.3, 
+Test accuracies from 5 folds:
+0.125, 0.325, 0.25, 0.275, 0.225, 
+Avg train acc: 0.75, Avg validation acc: 0.35500000000000004, Avg test acc: 0.24, 
+
+#####################################
+
+
+
+Results for subject 9.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.9236111111111112, 0.9652777777777778, 0.9722222222222222, 0.9375, 
+Validation accuracies from 5 folds:
+0.2916666666666667, 0.375, 0.3958333333333333, 0.3333333333333333, 0.2916666666666667, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.25, 0.22916666666666666, 0.3125, 0.22916666666666666, 
+Avg train acc: 0.9541666666666668, Avg validation acc: 0.3375, Avg test acc: 0.25833333333333336, 
+
+#####################################
+
+
+
+Results for subject 10.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.9305555555555556, 0.5277777777777778, 0.9583333333333334, 0.7361111111111112, 
+Validation accuracies from 5 folds:
+0.3541666666666667, 0.4375, 0.3125, 0.3125, 0.2916666666666667, 
+Test accuracies from 5 folds:
+0.3125, 0.16666666666666666, 0.22916666666666666, 0.3125, 0.22916666666666666, 
+Avg train acc: 0.825, Avg validation acc: 0.3416666666666667, Avg test acc: 0.25, 
+
+#####################################
+
+Experiment done on model deepCNN. 
+ Learning rate: 0.0001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 60, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data. EXPERIMENT >=.
+
+Results for subject 1.
+Train accuracies from 5 folds:
+0.4666666666666667, 0.825, 0.925, 1.0, 0.7916666666666666, 
+Validation accuracies from 5 folds:
+0.325, 0.3, 0.325, 0.25, 0.35, 
+Test accuracies from 5 folds:
+0.225, 0.175, 0.2, 0.225, 0.35, 
+Avg train acc: 0.8016666666666667, Avg validation acc: 0.30999999999999994, Avg test acc: 0.23500000000000001, 
+
+#####################################
+
+
+
+Results for subject 2.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.25, 0.4444444444444444, 0.9791666666666666, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.3125, 0.25, 0.25, 0.375, 0.2708333333333333, 
+Test accuracies from 5 folds:
+0.3333333333333333, 0.25, 0.25, 0.16666666666666666, 0.3333333333333333, 
+Avg train acc: 0.725, Avg validation acc: 0.29166666666666663, Avg test acc: 0.26666666666666666, 
+
+#####################################
+
+
+
+Results for subject 3.
+Train accuracies from 5 folds:
+0.9444444444444444, 0.9351851851851852, 0.9444444444444444, 0.9259259259259259, 0.9444444444444444, 
+Validation accuracies from 5 folds:
+0.4444444444444444, 0.3055555555555556, 0.3611111111111111, 0.3333333333333333, 0.3611111111111111, 
+Test accuracies from 5 folds:
+0.25, 0.3333333333333333, 0.2777777777777778, 0.3055555555555556, 0.3055555555555556, 
+Avg train acc: 0.9388888888888889, Avg validation acc: 0.3611111111111111, Avg test acc: 0.2944444444444444, 
+
+#####################################
+
+
+
+Results for subject 4.
+Train accuracies from 5 folds:
+0.9861111111111112, 0.7777777777777778, 0.9444444444444444, 0.9861111111111112, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.2916666666666667, 0.2708333333333333, 0.3958333333333333, 0.3333333333333333, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.14583333333333334, 0.3125, 0.2916666666666667, 0.2708333333333333, 0.22916666666666666, 
+Avg train acc: 0.9347222222222221, Avg validation acc: 0.32499999999999996, Avg test acc: 0.25, 
+
+#####################################
+
+
+
+Results for subject 5.
+Train accuracies from 5 folds:
+0.9513888888888888, 0.9722222222222222, 0.9513888888888888, 0.9027777777777778, 0.9652777777777778, 
+Validation accuracies from 5 folds:
+0.2916666666666667, 0.2708333333333333, 0.3125, 0.3333333333333333, 0.2708333333333333, 
+Test accuracies from 5 folds:
+0.22916666666666666, 0.22916666666666666, 0.3541666666666667, 0.2708333333333333, 0.25, 
+Avg train acc: 0.9486111111111111, Avg validation acc: 0.2958333333333333, Avg test acc: 0.26666666666666666, 
+
+#####################################
+
+
+
+Results for subject 6.
+Train accuracies from 5 folds:
+0.46511627906976744, 0.9534883720930233, 0.9534883720930233, 0.9457364341085271, 0.9457364341085271, 
+Validation accuracies from 5 folds:
+0.3488372093023256, 0.2727272727272727, 0.25, 0.36363636363636365, 0.2727272727272727, 
+Test accuracies from 5 folds:
+0.2727272727272727, 0.32558139534883723, 0.11627906976744186, 0.2558139534883721, 0.27906976744186046, 
+Avg train acc: 0.8527131782945737, Avg validation acc: 0.30158562367864694, Avg test acc: 0.24989429175475686, 
+
+#####################################
+
+
+
+Results for subject 7.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.9861111111111112, 0.9722222222222222, 0.9791666666666666, 0.9722222222222222, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.4166666666666667, 0.2708333333333333, 0.3333333333333333, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.2916666666666667, 0.25, 0.2708333333333333, 0.3125, 0.2708333333333333, 
+Avg train acc: 0.976388888888889, Avg validation acc: 0.33749999999999997, Avg test acc: 0.2791666666666667, 
+
+#####################################
+
+
+
+Results for subject 8.
+Train accuracies from 5 folds:
+1.0, 1.0, 1.0, 0.975, 1.0, 
+Validation accuracies from 5 folds:
+0.375, 0.275, 0.35, 0.325, 0.35, 
+Test accuracies from 5 folds:
+0.2, 0.325, 0.225, 0.325, 0.2, 
+Avg train acc: 0.9949999999999999, Avg validation acc: 0.33499999999999996, Avg test acc: 0.255, 
+
+#####################################
+
+
+
+Results for subject 9.
+Train accuracies from 5 folds:
+0.9791666666666666, 0.9722222222222222, 0.9861111111111112, 0.9722222222222222, 0.9861111111111112, 
+Validation accuracies from 5 folds:
+0.4166666666666667, 0.2708333333333333, 0.4166666666666667, 0.3333333333333333, 0.3541666666666667, 
+Test accuracies from 5 folds:
+0.25, 0.4166666666666667, 0.25, 0.22916666666666666, 0.2916666666666667, 
+Avg train acc: 0.9791666666666667, Avg validation acc: 0.35833333333333334, Avg test acc: 0.28750000000000003, 
+
+#####################################
+
+
+
+Results for subject 10.
+Train accuracies from 5 folds:
+0.8958333333333334, 0.4375, 0.4027777777777778, 0.375, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.3541666666666667, 0.2708333333333333, 0.3541666666666667, 0.2916666666666667, 0.2708333333333333, 
+Test accuracies from 5 folds:
+0.20833333333333334, 0.2708333333333333, 0.20833333333333334, 0.22916666666666666, 0.2708333333333333, 
+Avg train acc: 0.6180555555555556, Avg validation acc: 0.30833333333333335, Avg test acc: 0.2375, 
+
+#####################################
+
+Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 30, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.
+
+Results for subject 1.
+Train accuracies from 5 folds:
+1.0, 0.825, 0.9916666666666667, 0.9166666666666666, 1.0, 
+Validation accuracies from 5 folds:
+0.375, 0.275, 0.3, 0.325, 0.325, 
+Test accuracies from 5 folds:
+0.2, 0.35, 0.15, 0.225, 0.3, 
+Avg train acc: 0.9466666666666665, Avg validation acc: 0.31999999999999995, Avg test acc: 0.24500000000000002, 
+
+#####################################
+
+
+
+Results for subject 2.
+Train accuracies from 5 folds:
+0.9097222222222222, 0.9791666666666666, 0.2777777777777778, 0.6319444444444444, 0.9722222222222222, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.2916666666666667, 0.25, 0.2916666666666667, 0.3541666666666667, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.2916666666666667, 0.25, 0.20833333333333334, 0.22916666666666666, 
+Avg train acc: 0.7541666666666667, Avg validation acc: 0.3041666666666667, Avg test acc: 0.25, 
+
+#####################################
+
+
+
+Results for subject 3.
+Train accuracies from 5 folds:
+0.9166666666666666, 0.9444444444444444, 0.9629629629629629, 0.9629629629629629, 0.4166666666666667, 
+Validation accuracies from 5 folds:
+0.25, 0.3055555555555556, 0.3611111111111111, 0.2777777777777778, 0.25, 
+Test accuracies from 5 folds:
+0.2222222222222222, 0.16666666666666666, 0.3611111111111111, 0.2222222222222222, 0.25, 
+Avg train acc: 0.8407407407407407, Avg validation acc: 0.2888888888888889, Avg test acc: 0.24444444444444446, 
+
+#####################################
+
+
+
+Results for subject 4.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.8125, 0.9861111111111112, 0.9861111111111112, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.2708333333333333, 0.2708333333333333, 0.2916666666666667, 0.2916666666666667, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.20833333333333334, 0.22916666666666666, 0.2916666666666667, 0.2708333333333333, 0.2916666666666667, 
+Avg train acc: 0.9472222222222223, Avg validation acc: 0.29166666666666663, Avg test acc: 0.25833333333333336, 
+
+#####################################
+
+
+
+Results for subject 5.
+Train accuracies from 5 folds:
+0.9791666666666666, 0.9791666666666666, 0.25, 0.9722222222222222, 0.3194444444444444, 
+Validation accuracies from 5 folds:
+0.3958333333333333, 0.25, 0.25, 0.25, 0.25, 
+Test accuracies from 5 folds:
+0.3333333333333333, 0.1875, 0.25, 0.1875, 0.2708333333333333, 
+Avg train acc: 0.7, Avg validation acc: 0.2791666666666667, Avg test acc: 0.2458333333333333, 
+
+#####################################
+
+
+
+Results for subject 6.
+Train accuracies from 5 folds:
+0.24806201550387597, 0.9534883720930233, 0.8294573643410853, 0.9457364341085271, 0.7596899224806202, 
+Validation accuracies from 5 folds:
+0.2558139534883721, 0.38636363636363635, 0.2727272727272727, 0.2727272727272727, 0.25, 
+Test accuracies from 5 folds:
+0.25, 0.2558139534883721, 0.20930232558139536, 0.18604651162790697, 0.13953488372093023, 
+Avg train acc: 0.7472868217054264, Avg validation acc: 0.28752642706131076, Avg test acc: 0.20813953488372094, 
+
+#####################################
+
+
+
+Results for subject 7.
+Train accuracies from 5 folds:
+0.2777777777777778, 0.25, 0.9722222222222222, 0.9791666666666666, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.25, 0.25, 0.3333333333333333, 0.3125, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.25, 0.25, 0.2708333333333333, 0.22916666666666666, 0.16666666666666666, 
+Avg train acc: 0.6916666666666667, Avg validation acc: 0.2958333333333333, Avg test acc: 0.2333333333333333, 
+
+#####################################
+
+
+
+Results for subject 8.
+Train accuracies from 5 folds:
+0.5333333333333333, 0.6833333333333333, 1.0, 1.0, 1.0, 
+Validation accuracies from 5 folds:
+0.25, 0.375, 0.375, 0.35, 0.325, 
+Test accuracies from 5 folds:
+0.25, 0.275, 0.225, 0.2, 0.375, 
+Avg train acc: 0.8433333333333334, Avg validation acc: 0.335, Avg test acc: 0.265, 
+
+#####################################
+
+
+
+Results for subject 9.
+Train accuracies from 5 folds:
+0.9930555555555556, 0.9791666666666666, 0.2638888888888889, 0.9861111111111112, 0.5069444444444444, 
+Validation accuracies from 5 folds:
+0.25, 0.2916666666666667, 0.25, 0.3541666666666667, 0.3125, 
+Test accuracies from 5 folds:
+0.2916666666666667, 0.3541666666666667, 0.25, 0.3333333333333333, 0.25, 
+Avg train acc: 0.7458333333333333, Avg validation acc: 0.2916666666666667, Avg test acc: 0.29583333333333334, 
+
+#####################################
+
+
+
+Results for subject 10.
+Train accuracies from 5 folds:
+0.9513888888888888, 0.9791666666666666, 0.9722222222222222, 0.8125, 0.9375, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.3541666666666667, 0.3333333333333333, 0.2916666666666667, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.3333333333333333, 0.25, 0.125, 0.3333333333333333, 0.2916666666666667, 
+Avg train acc: 0.9305555555555556, Avg validation acc: 0.32916666666666666, Avg test acc: 0.26666666666666666, 
+
+#####################################
+
+Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 50, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.
+
+Results for subject 1.
+Train accuracies from 5 folds:
+1.0, 0.49166666666666664, 1.0, 0.9916666666666667, 1.0, 
+Validation accuracies from 5 folds:
+0.5, 0.3, 0.35, 0.4, 0.325, 
+Test accuracies from 5 folds:
+0.225, 0.25, 0.425, 0.325, 0.3, 
+Avg train acc: 0.8966666666666667, Avg validation acc: 0.37499999999999994, Avg test acc: 0.305, 
+
+#####################################
+
+
+
+Results for subject 2.
+Train accuracies from 5 folds:
+0.9861111111111112, 0.9791666666666666, 0.9861111111111112, 0.9791666666666666, 0.9861111111111112, 
+Validation accuracies from 5 folds:
+0.3541666666666667, 0.375, 0.375, 0.3333333333333333, 0.2916666666666667, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.2916666666666667, 0.3125, 0.16666666666666666, 0.22916666666666666, 
+Avg train acc: 0.9833333333333332, Avg validation acc: 0.3458333333333333, Avg test acc: 0.2541666666666667, 
+
+#####################################
+
+
+
+Results for subject 3.
+Train accuracies from 5 folds:
+0.25925925925925924, 0.9074074074074074, 0.9444444444444444, 0.9444444444444444, 0.9351851851851852, 
+Validation accuracies from 5 folds:
+0.25, 0.3055555555555556, 0.3611111111111111, 0.3333333333333333, 0.3333333333333333, 
+Test accuracies from 5 folds:
+0.25, 0.19444444444444445, 0.3055555555555556, 0.2777777777777778, 0.2777777777777778, 
+Avg train acc: 0.798148148148148, Avg validation acc: 0.31666666666666665, Avg test acc: 0.26111111111111107, 
+
+#####################################
+
+
+
+Results for subject 4.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.5138888888888888, 0.9861111111111112, 0.9791666666666666, 0.9861111111111112, 
+Validation accuracies from 5 folds:
+0.3541666666666667, 0.25, 0.375, 0.25, 0.2708333333333333, 
+Test accuracies from 5 folds:
+0.25, 0.25, 0.2708333333333333, 0.2708333333333333, 0.16666666666666666, 
+Avg train acc: 0.8875, Avg validation acc: 0.3, Avg test acc: 0.24166666666666664, 
+
+#####################################
+
+
+
+Results for subject 5.
+Train accuracies from 5 folds:
+0.9791666666666666, 0.9791666666666666, 0.9791666666666666, 0.9097222222222222, 0.9722222222222222, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.25, 0.2708333333333333, 0.3125, 0.3125, 
+Test accuracies from 5 folds:
+0.25, 0.2708333333333333, 0.22916666666666666, 0.2916666666666667, 0.16666666666666666, 
+Avg train acc: 0.9638888888888889, Avg validation acc: 0.2958333333333333, Avg test acc: 0.24166666666666664, 
+
+#####################################
+
+
+
+Results for subject 6.
+Train accuracies from 5 folds:
+0.9457364341085271, 0.9457364341085271, 0.9457364341085271, 0.3953488372093023, 0.9457364341085271, 
+Validation accuracies from 5 folds:
+0.2558139534883721, 0.29545454545454547, 0.29545454545454547, 0.25, 0.3409090909090909, 
+Test accuracies from 5 folds:
+0.20454545454545456, 0.20930232558139536, 0.3023255813953488, 0.23255813953488372, 0.18604651162790697, 
+Avg train acc: 0.8356589147286823, Avg validation acc: 0.28752642706131076, Avg test acc: 0.22695560253699787, 
+
+#####################################
+
+
+
+Results for subject 7.
+Train accuracies from 5 folds:
+0.7152777777777778, 0.9791666666666666, 0.3194444444444444, 0.9861111111111112, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.3125, 0.3958333333333333, 0.2708333333333333, 0.4166666666666667, 0.3541666666666667, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.2916666666666667, 0.20833333333333334, 0.2916666666666667, 0.25, 
+Avg train acc: 0.7958333333333333, Avg validation acc: 0.35, Avg test acc: 0.2625, 
+
+#####################################
+
+
+
+Results for subject 8.
+Train accuracies from 5 folds:
+1.0, 0.9833333333333333, 1.0, 1.0, 1.0, 
+Validation accuracies from 5 folds:
+0.375, 0.3, 0.425, 0.25, 0.325, 
+Test accuracies from 5 folds:
+0.275, 0.25, 0.35, 0.25, 0.325, 
+Avg train acc: 0.9966666666666667, Avg validation acc: 0.335, Avg test acc: 0.29, 
+
+#####################################
+
+
+
+Results for subject 9.
+Train accuracies from 5 folds:
+0.9722222222222222, 0.9722222222222222, 0.9791666666666666, 0.4513888888888889, 0.9722222222222222, 
+Validation accuracies from 5 folds:
+0.3541666666666667, 0.3125, 0.3958333333333333, 0.2916666666666667, 0.4166666666666667, 
+Test accuracies from 5 folds:
+0.4583333333333333, 0.2916666666666667, 0.20833333333333334, 0.25, 0.3125, 
+Avg train acc: 0.8694444444444445, Avg validation acc: 0.3541666666666667, Avg test acc: 0.3041666666666667, 
+
+#####################################
+
+
+
+Results for subject 10.
+Train accuracies from 5 folds:
+0.9791666666666666, 0.9652777777777778, 0.9375, 0.9861111111111112, 0.4930555555555556, 
+Validation accuracies from 5 folds:
+0.2708333333333333, 0.2916666666666667, 0.2708333333333333, 0.3333333333333333, 0.2708333333333333, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.2708333333333333, 0.2916666666666667, 0.3125, 0.3125, 
+Avg train acc: 0.8722222222222223, Avg validation acc: 0.2875, Avg test acc: 0.29166666666666663, 
+
+#####################################
+
+Experiment done on model deepCNN. 
+ Learning rate: 0.001 
+ Optimizer: Adam 
+ Loss function: NLLLoss 
+ Epochs: 50, Batch size: 10 
+ Experiments run on full interval with frequency 254 Hz on the data.
+
+Results for subject 1.
+Train accuracies from 5 folds:
+1.0, 1.0, 0.48333333333333334, 0.975, 0.9833333333333333, 
+Validation accuracies from 5 folds:
+0.375, 0.3, 0.275, 0.275, 0.325, 
+Test accuracies from 5 folds:
+0.125, 0.325, 0.225, 0.25, 0.175, 
+Avg train acc: 0.8883333333333333, Avg validation acc: 0.31, Avg test acc: 0.22000000000000003, 
+
+#####################################
+
+
+
+Results for subject 2.
+Train accuracies from 5 folds:
+0.9861111111111112, 0.9791666666666666, 0.8680555555555556, 0.7986111111111112, 0.9861111111111112, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.3125, 0.2708333333333333, 0.2708333333333333, 0.2916666666666667, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.22916666666666666, 0.1875, 0.22916666666666666, 0.2916666666666667, 
+Avg train acc: 0.923611111111111, Avg validation acc: 0.2958333333333333, Avg test acc: 0.24166666666666664, 
+
+#####################################
+
+
+
+Results for subject 3.
+Train accuracies from 5 folds:
+0.9537037037037037, 0.39814814814814814, 0.7129629629629629, 0.9629629629629629, 0.9537037037037037, 
+Validation accuracies from 5 folds:
+0.3333333333333333, 0.2777777777777778, 0.3055555555555556, 0.3055555555555556, 0.3055555555555556, 
+Test accuracies from 5 folds:
+0.2222222222222222, 0.2777777777777778, 0.19444444444444445, 0.19444444444444445, 0.2777777777777778, 
+Avg train acc: 0.7962962962962963, Avg validation acc: 0.3055555555555556, Avg test acc: 0.2333333333333333, 
+
+#####################################
+
+
+
+Results for subject 4.
+Train accuracies from 5 folds:
+0.9791666666666666, 0.25, 0.25, 0.9791666666666666, 0.9583333333333334, 
+Validation accuracies from 5 folds:
+0.4166666666666667, 0.25, 0.25, 0.3541666666666667, 0.2916666666666667, 
+Test accuracies from 5 folds:
+0.25, 0.25, 0.25, 0.1875, 0.25, 
+Avg train acc: 0.6833333333333333, Avg validation acc: 0.31250000000000006, Avg test acc: 0.2375, 
+
+#####################################
+
+
+
+Results for subject 5.
+Train accuracies from 5 folds:
+0.6458333333333334, 0.25, 0.9791666666666666, 0.9722222222222222, 0.25, 
+Validation accuracies from 5 folds:
+0.3125, 0.25, 0.3125, 0.4583333333333333, 0.25, 
+Test accuracies from 5 folds:
+0.25, 0.25, 0.3541666666666667, 0.3333333333333333, 0.25, 
+Avg train acc: 0.6194444444444445, Avg validation acc: 0.31666666666666665, Avg test acc: 0.2875, 
+
+#####################################
+
+
+
+Results for subject 6.
+Train accuracies from 5 folds:
+0.9069767441860465, 0.24806201550387597, 0.24806201550387597, 0.9612403100775194, 0.4883720930232558, 
+Validation accuracies from 5 folds:
+0.3023255813953488, 0.25, 0.25, 0.29545454545454547, 0.2727272727272727, 
+Test accuracies from 5 folds:
+0.18181818181818182, 0.2558139534883721, 0.2558139534883721, 0.13953488372093023, 0.3023255813953488, 
+Avg train acc: 0.5705426356589147, Avg validation acc: 0.27410147991543343, Avg test acc: 0.22706131078224107, 
+
+#####################################
+
+
+
+Results for subject 7.
+Train accuracies from 5 folds:
+0.4930555555555556, 0.9791666666666666, 0.75, 0.9722222222222222, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.3125, 0.3541666666666667, 0.3125, 0.2708333333333333, 0.2916666666666667, 
+Test accuracies from 5 folds:
+0.2916666666666667, 0.2916666666666667, 0.20833333333333334, 0.1875, 0.22916666666666666, 
+Avg train acc: 0.8347222222222224, Avg validation acc: 0.30833333333333335, Avg test acc: 0.2416666666666667, 
+
+#####################################
+
+
+
+Results for subject 8.
+Train accuracies from 5 folds:
+0.9166666666666666, 1.0, 0.9583333333333334, 1.0, 1.0, 
+Validation accuracies from 5 folds:
+0.375, 0.35, 0.375, 0.35, 0.45, 
+Test accuracies from 5 folds:
+0.275, 0.275, 0.35, 0.375, 0.225, 
+Avg train acc: 0.975, Avg validation acc: 0.38, Avg test acc: 0.3, 
+
+#####################################
+
+
+
+Results for subject 9.
+Train accuracies from 5 folds:
+0.9861111111111112, 0.9722222222222222, 0.9791666666666666, 0.9722222222222222, 0.9861111111111112, 
+Validation accuracies from 5 folds:
+0.2916666666666667, 0.375, 0.3125, 0.3958333333333333, 0.3541666666666667, 
+Test accuracies from 5 folds:
+0.2708333333333333, 0.2708333333333333, 0.22916666666666666, 0.3541666666666667, 0.3333333333333333, 
+Avg train acc: 0.9791666666666667, Avg validation acc: 0.3458333333333333, Avg test acc: 0.29166666666666663, 
+
+#####################################
+
+
+
+Results for subject 10.
+Train accuracies from 5 folds:
+0.8819444444444444, 0.5, 0.9791666666666666, 0.9861111111111112, 0.9791666666666666, 
+Validation accuracies from 5 folds:
+0.2708333333333333, 0.2708333333333333, 0.3333333333333333, 0.3958333333333333, 0.3541666666666667, 
+Test accuracies from 5 folds:
+0.3125, 0.25, 0.2916666666666667, 0.25, 0.3125, 
+Avg train acc: 0.8652777777777778, Avg validation acc: 0.325, Avg test acc: 0.2833333333333333, 
+
+#####################################
+
