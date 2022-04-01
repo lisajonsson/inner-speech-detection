@@ -3,6 +3,7 @@
 What I did to make it run:
 
 * Download all 3 N-Nieto git repositorys.
+* https://github.com/N-Nieto/Inner_Speech_Dataset
 
 * Install miniconda.
 
