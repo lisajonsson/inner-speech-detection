@@ -109,7 +109,7 @@ Avg train acc: 0.6833333333333333, Avg validation acc: 0.30000000000000004, Avg 
 #####################################
 
  ------------------- REDO -----------------------
- Experiment done on model EEGNet. 
+ Experiment done on model EEGNetv1. 
  Learning rate: 0.001 
  Optimizer: Adam 
  Loss function: NLLLoss 
